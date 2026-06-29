@@ -1,0 +1,569 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a0d14;
+  --panel: #121826;
+  --text: #e8ecf4;
+  --muted: #8b95a8;
+  --accent: #6ea8ff;
+  --border: #2a3344;
+  --footer-h: 4.25rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #1a2438 0%, var(--bg) 55%);
+  color: var(--text);
+  padding-bottom: calc(var(--footer-h) + 1rem);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-shell {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2rem;
+}
+
+/* ── Artist header ── */
+.site-header {
+  margin-bottom: 1.75rem;
+}
+
+.artist-identity {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.artist-photo {
+  width: 6.25rem;
+  height: 6.25rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 2px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  background: var(--panel);
+}
+
+.artist-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.artist-name {
+  margin: 0 0 0.4rem;
+  font-size: 1.55rem;
+  line-height: 1.2;
+}
+
+.artist-bio {
+  margin: 0;
+  color: #b7c0d1;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  font-size: 0.92rem;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.1rem;
+  margin-top: 0.85rem;
+}
+
+.social-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 0.15rem;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: #f0f2f6;
+  text-decoration: none;
+  opacity: 0.88;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.social-icon-btn:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.social-icon-btn svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: currentColor;
+}
+
+/* ── Songs section ── */
+.songs-section {
+  margin-top: 0.5rem;
+}
+
+.section-title {
+  margin: 0 0 0.85rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.song-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+/* ── Song card (artist index) ── */
+.song-card {
+  display: flex;
+  align-items: stretch;
+  gap: 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.55rem;
+  background: color-mix(in srgb, var(--panel) 92%, black);
+}
+
+.song-card-play {
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.song-card-thumb {
+  flex-shrink: 0;
+  display: block;
+  width: 3.25rem;
+  height: 4.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--border) 60%, var(--panel));
+  text-decoration: none;
+}
+
+.song-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.song-card-thumb-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.song-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 0.25rem;
+}
+
+.song-card-body h3 {
+  margin: 0 0 0.15rem;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.song-card-body h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.song-card-body h3 a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.song-card .caption {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+/* ── Icon buttons ── */
+.icon-btn {
+  appearance: none;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 14%, var(--panel));
+  color: var(--text);
+  width: 2.35rem;
+  height: 2.35rem;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-btn:hover {
+  border-color: var(--accent);
+}
+
+.icon-btn svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: currentColor;
+}
+
+.icon-btn.is-active {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 28%, var(--panel));
+}
+
+.icon-btn-home {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-bottom: 0.85rem;
+}
+
+/* ── Song detail page ── */
+.song-hero {
+  display: grid;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 520px) {
+  .song-hero {
+    grid-template-columns: 9rem 1fr;
+    align-items: start;
+  }
+}
+
+.song-cover-wrap {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  background: color-mix(in srgb, var(--border) 60%, var(--panel));
+  border: 1px solid var(--border);
+}
+
+.song-cover-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  cursor: zoom-in;
+  appearance: none;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+
+.song-cover-btn:hover {
+  opacity: 0.92;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+.song-cover-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.song-cover-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.song-hero-meta {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.song-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.65rem;
+  margin-bottom: 0.25rem;
+}
+
+.song-title {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  flex: 1;
+  min-width: 0;
+}
+
+.song-hero .caption {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.stream-links {
+  font-size: 0.85rem;
+}
+
+.song-about,
+.lyrics-block {
+  margin-top: 1.1rem;
+}
+
+.song-about:first-of-type {
+  margin-top: 0.75rem;
+}
+
+.song-about h2,
+.lyrics-block h2 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+  color: #c5cdd9;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.song-about div,
+.lyrics-block div {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #d4dae6;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.song-extra-image {
+  margin-top: 0.75rem;
+  border-radius: 12px;
+  overflow: hidden;
+  max-height: 16rem;
+  border: 1px solid var(--border);
+}
+
+.song-extra-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Cover lightbox ── */
+body.modal-open {
+  overflow: hidden;
+}
+
+.cover-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(4, 6, 10, 0.88);
+  backdrop-filter: blur(6px);
+}
+
+.cover-modal.hidden {
+  display: none;
+}
+
+.cover-modal img {
+  max-width: min(92vw, 28rem);
+  max-height: min(85vh, 40rem);
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.55);
+  object-fit: contain;
+}
+
+.cover-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  appearance: none;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: color-mix(in srgb, var(--panel) 90%, black);
+  color: var(--text);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.cover-modal-close:hover {
+  border-color: var(--accent);
+}
+
+/* ── Footer player ── */
+#site-player-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--footer-h);
+  border-top: 1px solid var(--border);
+  background: color-mix(in srgb, var(--panel) 97%, black);
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0 0.75rem;
+  z-index: 20;
+}
+
+#site-player-footer.hidden {
+  display: none;
+}
+
+#footer-play-btn {
+  width: 2.15rem;
+  height: 2.15rem;
+}
+
+.footer-title-wrap {
+  flex: 0 1 7.5rem;
+  min-width: 3rem;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, #000 85%, transparent);
+}
+
+#footer-track-title {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0.85rem;
+  line-height: var(--footer-h);
+}
+
+#footer-track-title.is-scrolling {
+  animation: footer-title-scroll var(--scroll-duration, 12s) linear infinite;
+}
+
+@keyframes footer-title-scroll {
+  0%,
+  10% {
+    transform: translateX(0);
+  }
+  45%,
+  55% {
+    transform: translateX(calc(-1 * var(--scroll-distance, 0px)));
+  }
+  90%,
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#footer-scrub {
+  flex: 1;
+  height: 0.4rem;
+  border-radius: 999px;
+  background: var(--border);
+  cursor: pointer;
+  position: relative;
+  min-width: 3rem;
+}
+
+#footer-scrub-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
+  background: var(--accent);
+  pointer-events: none;
+}
+
+#footer-time {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+#footer-repeat-btn,
+#footer-mute-btn {
+  width: 1.85rem;
+  height: 1.85rem;
+}
+
+#footer-repeat-btn svg,
+#footer-mute-btn svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+#footer-volume {
+  width: 3.5rem;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+#footer-audio {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  #footer-volume {
+    display: none;
+  }
+
+  .footer-title-wrap {
+    flex-basis: 4.5rem;
+  }
+}
+
+/* ── Song Pages desktop app presentation mode ──
+ * Activated when Listener Mode loads ?songpagesApp=1 (legacy: songpagesEmbed=1).
+ * Templates hide browser-only chrome; Electron does not inject styles into guests.
+ */
+html.songpages-app-client body,
+body.songpages-app-client {
+  padding-bottom: 1rem;
+}
+
+html.songpages-app-client [data-songpages-client-chrome],
+body.songpages-app-client [data-songpages-client-chrome],
+html.songpages-app-client #site-player-footer,
+body.songpages-app-client #site-player-footer,
+/* Legacy compiled pages before the data-songpages-client-chrome markers */
+html.songpages-app-client .icon-btn-home,
+body.songpages-app-client .icon-btn-home,
+html.songpages-app-client .song-page-play,
+body.songpages-app-client .song-page-play,
+html.songpages-app-client .song-card-play,
+body.songpages-app-client .song-card-play {
+  display: none !important;
+}

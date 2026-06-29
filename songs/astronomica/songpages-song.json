@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "siteRoot": "https://sawyerhouse-music.b-cdn.net",
+  "artistSlug": "sawyerhouse-music",
+  "artistName": "Ben Sawyer",
+  "id": "03b70b14-2ea5-4536-b55a-e4a8d1fe330c",
+  "slug": "astronomica",
+  "title": "Astronomica",
+  "album": "",
+  "year": "2025",
+  "caption": "Adapted from an early attempt at a stutter house track and then taken in a different direction",
+  "about": "Penned somewhere between 14 and 40 AD, Marcus Manilius’s Astronomica acts as the Western world’s debut concept album on the cosmos—and stands as our earliest surviving comprehensive treatise on astrology. Spread across five sweeping \"books\" of Latin didactic poetry, the work completely ignores the modern divide between science and mysticism. Instead, Manilius flawlessly mixes the two, treating the cold, hard math of celestial geometry as the necessary baseline to decode the stars' divine influence on our lives. Heavy with Stoic philosophy, this epic paints the universe not as a random void, but as a single, breathing organism perfectly orchestrated by immutable fate and divine reason (ratio).",
+  "lyrics": "The sky tells us everything\nThe sky tells us everything\n\nCircles within circles\nEvery motion by design,\nEyes trackin' orbits \nIn a sky so divine.\nHeaven sets the tempo \nWhile our world stays confined.\nAs the sky moves above us \nWith stories older than time.\nAnd then I move off-beat, \nChasing feelings I can’t see.\n\nAstronomica\nAstronomica\nAstronomica\nAstronomica\nCelestial\nPhenomena\n\nMaiden draws the patient heart,\nLion sparks the blazing start,\nTwins divide the restless part,\nWater-bearers flood the dark.\nThreads of fire, threads of air,\nShape how we hope and care;\nNot our fate, but how we fare\nAll the signs are right up there.\nEvery star’s a mirror \nSending signals back to me,\nExplaining my emotions,\nAs universal symmetry.\n\nAstronomica\nAstronomica\nAstronomica\nAstronomica\nCelestial\nPhenomena\n\nThe cosmos spin,\nBut minds stay right\nWe seize the day\nBy watching the night.\nFortune turns,\nBut we still choose\nWhat we win and what we lose.\nThe stars don’t bind\nOr cast our line\nThey only reflect\nOur space and time.\n\nAstronomica\nAstronomica\nAstronomica\nAstronomica\nCelestial\nPhenomena\n\nIf I learn your language \nIf I play your game\nIf I map the heavens\nWill it all seem the same?\n\nAstronomica\nAstronomica\nAstronomica\nAstronomica\nCelestial\nPhenomena\n\nThe sky tells us everything\nThe sky tells us everything",
+  "coverUrl": "cover.jpg",
+  "extraImageUrl": null,
+  "pageUrl": "../astronomica.html",
+  "playbackUrl": "manifest.m3u8",
+  "streamLinks": {
+    "youtube": "",
+    "spotify": "",
+    "soundcloud": ""
+  },
+  "playbackScope": "full",
+  "playbackQuality": "high",
+  "buildVersion": "20260629T184514Z-e098071"
+}

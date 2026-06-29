@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "siteRoot": "https://sawyerhouse-music.b-cdn.net",
+  "artistSlug": "sawyerhouse-music",
+  "artistName": "Ben Sawyer",
+  "id": "b0a04b03-0a8e-427f-8422-593e7bb8c235",
+  "slug": "ma-cherie",
+  "title": "Ma chérie",
+  "album": "",
+  "year": "2025",
+  "caption": "Fun song with a bit of French",
+  "about": "I made this song as part of a songwriting challenge.",
+  "lyrics": "Ma chérie\nC’est la vie\nSuch is life\nCan’t you see?\nMa chérie\nMa chérie\nMy sweetheart\nBe sweet for me\n\nOooooooh can you\nBe sweet for me?\nGive me a taste\nMa chérie\nI see the love in your face\n\nOooooooh can you\nBe sweet for me?\nBe sweet for me\nBe sweet for me\n\nMon amour\nSlow it down\nSay my name\nNo big sound\nMa chérie\nLook at me\nSuch is love\nLet it be\n\nOooooooh can you\nBe sweet for me?\nGive me a taste\nMa chérie\nI see the love in your face\n\nOooooooh can you\nBe sweet for me?\nBe sweet for me\nBe sweet for me\n\nCome real close\nSay it soft\nIf it’s sweet\nThat’s enough\n\nJ’ai besoin de rien, j’veux pas la gloire\nJuste ton regard quand tu dis mon nom\nSlow motion vibes, on prend notre histoire\nPas de pression, pas d’illusion\n\nHoney drip words, you talk so sweet\nMême ton silence me fait bouger\nJe joue pas dur, I don’t compete\nMais pour toi, yeah, I might lean\n\nOn parle de rien, et tout s’allume\nTes yeux brillent, j’perds le fil\nNo games, no scene, just you and me\nSi c’est réel, I’m in for real\n\nDu sucre sur ta langue, douceur dans l’air\nEvery little look, I’m already there\nSi tu dis oui, j’ai tout ce qu’il faut\nBe sweet for me — that’s all I know\n\nCan you\nBe sweet for me?\nGive me a taste\nMa chérie\nI see the love in your face\n\nOooooooh can you\nBe sweet for me?\nBe sweet for me\nBe sweet for me",
+  "coverUrl": "cover.jpg",
+  "extraImageUrl": null,
+  "pageUrl": "../ma-cherie.html",
+  "playbackUrl": "manifest.m3u8",
+  "streamLinks": {
+    "youtube": "",
+    "spotify": "",
+    "soundcloud": ""
+  },
+  "playbackScope": "full",
+  "playbackQuality": "high",
+  "buildVersion": "20260629T184514Z-e098071"
+}
