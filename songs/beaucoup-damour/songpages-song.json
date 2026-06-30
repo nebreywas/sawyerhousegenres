@@ -1,26 +1,0 @@
-{
-  "schemaVersion": 1,
-  "siteRoot": "https://sawyerhouse-music.b-cdn.net",
-  "artistSlug": "sawyerhouse-music",
-  "artistName": "Ben Sawyer",
-  "id": "81decb8f-9a5f-4aa8-8d05-cddde23b2f11",
-  "slug": "beaucoup-damour",
-  "title": "Beaucoup d'Amour",
-  "album": "",
-  "year": "2026",
-  "caption": "Old French song redesigned",
-  "about": "A song about love",
-  "lyrics": "Malgré la voix de la sagesse,\nJe voudrais amasser de l’or;\nSoudain aux pieds de ma maîtresse\nJ’irais déposer mon trésor.\nDocile à son moindre caprice,\nJe satisferais chaque jour:\nNon, non, je n’ai point d’avarice,\nNon, non, je n’ai point d’avarice,\nMais j’ai beaucoup, beaucoup d’amour.\n\n Beaucoup, beaucoup d’amour\nEst la seule richesse que je désire avoir \n\nPour immortaliser Adèle,\nSi des chants m’étaient inspirés,\nMes vers, où je ne peindrais qu’elle,\nÀ jamais seraient admirés;\nPuissent ainsi dans la mémoire\nNos deux noms se graver un jour!\nJe n’ai point l’amour de la gloire,\nJe n’ai point l’amour de la gloire,\nMais j’ai beaucoup, beaucoup d’amour.\n\nBeaucoup, beaucoup d’amour\nEst la seule richesse que je désire avoir \n\nQue la Providence m’élève\nJusqu’au trône éclatant des rois,\nAdèle embellira ce rêve,\nJe lui céderai tous mes droits.\nPour être plus sûr de lui plaire,\nJe voudrais avoir une cour:\nD’ambition je n’en ai guère,\nD’ambition je n’en ai guère,\nMais j’ai beaucoup, beaucoup d’amour.\n\nBeaucoup, beaucoup d’amour\nEst la seule richesse que je désire avoir \n\nMais quel vain désir m’importune?\nAdèle comble tous mes vœux;\nL’éclat, le renom, la fortune\nMoins que l’amour rendent heureux.\nÀ mon bonheur je puis donc croire\nEt du sort braver le retour:\nJe n’ai ni bien, ni rang, ni gloire,\nJe n’ai ni bien, ni rang, ni gloire,\nMais j’ai beaucoup, beaucoup d’amour.\n\nBeaucoup, beaucoup d’amour\nEst la seule richesse que je désire avoir  \n\nBeaucoup, beaucoup d’amour\nEst la seule richesse que je désire avoir",
-  "coverUrl": "cover.jpg",
-  "extraImageUrl": null,
-  "pageUrl": "../beaucoup-damour.html",
-  "playbackUrl": "manifest.m3u8",
-  "streamLinks": {
-    "youtube": "",
-    "spotify": "",
-    "soundcloud": ""
-  },
-  "playbackScope": "full",
-  "playbackQuality": "high",
-  "buildVersion": "20260629T184514Z-e098071"
-}

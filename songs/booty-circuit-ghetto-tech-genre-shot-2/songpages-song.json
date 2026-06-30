@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "siteRoot": "https://nebreywas.github.io/sawyerhousegenres",
+  "artistSlug": "sawyerhouse-genres",
+  "artistName": "SawyerHouse Genres",
+  "id": "0805f99c-2052-46a5-bb7f-fa774879b324",
+  "slug": "booty-circuit-ghetto-tech-genre-shot-2",
+  "title": "Booty Circuit (Ghetto Tech Genre - shot 2)",
+  "album": "",
+  "year": "",
+  "caption": "",
+  "about": "",
+  "lyrics": "",
+  "coverUrl": "cover.jpg",
+  "extraImageUrl": null,
+  "pageUrl": "../booty-circuit-ghetto-tech-genre-shot-2.html",
+  "playbackUrl": "manifest.m3u8",
+  "streamLinks": {
+    "youtube": "",
+    "spotify": "",
+    "soundcloud": ""
+  },
+  "playbackScope": "full",
+  "playbackQuality": "high",
+  "buildVersion": "20260630T003612Z-e098071",
+  "durationSeconds": 178
+}
