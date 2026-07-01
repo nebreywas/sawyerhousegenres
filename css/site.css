@@ -232,9 +232,14 @@ a:hover {
 }
 
 .icon-btn svg {
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 1.2rem;
+  height: 1.2rem;
   fill: currentColor;
+  display: block;
+}
+
+.icon-btn-repeat svg {
+  transform: scale(0.88);
 }
 
 .icon-btn.is-active {
@@ -450,8 +455,8 @@ body.modal-open {
 }
 
 #footer-play-btn {
-  width: 2.15rem;
-  height: 2.15rem;
+  width: 2.35rem;
+  height: 2.35rem;
 }
 
 .footer-title-wrap {
@@ -515,14 +520,14 @@ body.modal-open {
 
 #footer-repeat-btn,
 #footer-mute-btn {
-  width: 1.85rem;
-  height: 1.85rem;
+  width: 2.35rem;
+  height: 2.35rem;
 }
 
 #footer-repeat-btn svg,
 #footer-mute-btn svg {
-  width: 0.95rem;
-  height: 0.95rem;
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 #footer-volume {
@@ -566,4 +571,23 @@ body.songpages-app-client .song-page-play,
 html.songpages-app-client .song-card-play,
 body.songpages-app-client .song-card-play {
   display: none !important;
+}
+
+/* Fill the Electron web area — standalone sites keep max-width: 40rem in .site-shell */
+html.songpages-app-client .site-shell,
+body.songpages-app-client .site-shell {
+  max-width: 100%;
+  width: 100%;
+  padding: clamp(0.75rem, 2.5vw, 1.25rem) clamp(0.65rem, 3vw, 1rem) 1.5rem;
+  box-sizing: border-box;
+}
+
+html.songpages-app-client .artist-name,
+body.songpages-app-client .artist-name {
+  font-size: clamp(1.15rem, 4.5vw, 1.55rem);
+}
+
+html.songpages-app-client .song-title,
+body.songpages-app-client .song-title {
+  font-size: clamp(1.05rem, 4vw, 1.35rem);
 }
