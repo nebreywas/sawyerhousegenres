@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "siteRoot": "https://nebreywas.github.io/sawyerhousegenres",
+  "artistSlug": "sawyerhouse-genres",
+  "artistName": "SawyerHouse Genres",
+  "id": "2bf5e58c-3849-4c31-ae7d-d520f9058265",
+  "slug": "favela-bounce-brazillian-funk-genre-shot-10",
+  "title": "Favela Bounce (Brazillian Funk genre - shot 10)",
+  "album": "",
+  "year": "2026",
+  "caption": "",
+  "about": "",
+  "lyrics": "[Verse 1]\nStep in the room, feel that sway\nHeel to the floor, make it move that way\nHands up high, let it roll\nOne more shout, and we lose control\n\n[Pre-Chorus]\nRide that wave\nLeft to right\nHold that beat\nTill the night\n\n[Chorus]\nBate, bate, bate\nBate forte, baby\nBate, bate, bate\nTodo mundo se mexe\nBate, bate, bate\nNão para, não, baby\nBate, bate, bate\nQue a pista enlouquece\n\n[Verse 2]\nGold on skin, sweat on brow\nFast little steps, show me how\nSnap that waist, spin around\nLet the whole place shake this ground\n\n[Pre-Chorus]\nRide that wave\nLeft to right\nHold that beat\nTill the night\n\n[Chorus]\nBate, bate, bate\nBate forte, baby\nBate, bate, bate\nTodo mundo se mexe\nBate, bate, bate\nNão para, não, baby\nBate, bate, bate\nQue a pista enlouquece\n\n[Bridge]\nCall it loud\nLet it ring\nOne more time\nMake it sing\n\n[Chorus]\nBate, bate, bate\nBate forte, baby\nBate, bate, bate\nTodo mundo se mexe\nBate, bate, bate\nNão para, não, baby\nBate, bate, bate\nQue a pista enlouquece",
+  "coverUrl": "cover.jpg",
+  "extraImageUrl": null,
+  "pageUrl": "../favela-bounce-brazillian-funk-genre-shot-10.html",
+  "playbackUrl": "manifest.m3u8",
+  "streamLinks": {
+    "youtube": "",
+    "spotify": "",
+    "soundcloud": ""
+  },
+  "playbackScope": "full",
+  "playbackQuality": "standard",
+  "buildVersion": "20260702T142110Z-a7be5e1",
+  "durationSeconds": 130
+}

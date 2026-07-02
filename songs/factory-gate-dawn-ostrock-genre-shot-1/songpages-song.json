@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "siteRoot": "https://nebreywas.github.io/sawyerhousegenres",
+  "artistSlug": "sawyerhouse-genres",
+  "artistName": "SawyerHouse Genres",
+  "id": "5122a874-8c5d-4f55-a316-1a1eb4778187",
+  "slug": "factory-gate-dawn-ostrock-genre-shot-1",
+  "title": "Factory Gate Dawn (Ostrock Genre - shot 1)",
+  "album": "",
+  "year": "2026",
+  "caption": "Ostrock",
+  "about": "",
+  "lyrics": "[Verse 1]\nI wake up by the river\nWith dust on my hands\nThe siren calls the morning\nThrough the loading yard\n\nMy boots know the pavement\nMy coat knows the rain\nI keep a small fire\nUnder all this gray\n\n[Pre-Chorus]\nAnd I feel it in my chest\nWhen the day begins to climb\nOne more step, one more breath\nWe are alive\n\n[Chorus]\nKeep on going\nKeep on going\nWe are stronger than the wall\n\nKeep on going\nKeep on going\nHear our voices in the hall\n\n[Verse 2]\nThe factory gate is open\nThe smoke rolls slow\nMy brother rides beside me\nWhere the cold wind blows\n\nWe share black bread and laughter\nWe share the long way home\nNo one stands alone here\nWhen the night comes on\n\n[Pre-Chorus]\nAnd I feel it in my chest\nWhen the day begins to climb\nOne more step, one more breath\nWe are alive\n\n[Chorus]\nKeep on going\nKeep on going\nWe are stronger than the wall\n\nKeep on going\nKeep on going\nHear our voices in the hall\n\n[Bridge]\nLet the hard road shake us\nLet the winter bite\nWe still sing together\nThrough the falling night\n\n[Chorus]\nKeep on going\nKeep on going\nWe are stronger than the wall\n\nKeep on going\nKeep on going\nHear our voices in the hall",
+  "coverUrl": "cover.jpg",
+  "extraImageUrl": null,
+  "pageUrl": "../factory-gate-dawn-ostrock-genre-shot-1.html",
+  "playbackUrl": "manifest.m3u8",
+  "streamLinks": {
+    "youtube": "",
+    "spotify": "",
+    "soundcloud": ""
+  },
+  "playbackScope": "full",
+  "playbackQuality": "standard",
+  "buildVersion": "20260702T142110Z-a7be5e1",
+  "durationSeconds": 223
+}
