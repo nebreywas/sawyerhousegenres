@@ -21,7 +21,7 @@
     "soundcloud": ""
   },
   "playbackScope": "full",
-  "playbackQuality": "high",
-  "buildVersion": "20260701T024636Z-e098071",
+  "playbackQuality": "standard",
+  "buildVersion": "20260702T105105Z-a7be5e1",
   "durationSeconds": 162
 }
